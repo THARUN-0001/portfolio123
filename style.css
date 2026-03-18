@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f2f4f8;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 30px;
+}
+
+.header img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.subtitle {
+    font-weight: bold;
+    color: #555;
+}
+
+.tagline {
+    color: #777;
+}
+
+/* Navigation */
+.nav {
+    background: #b9b96f;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Section colors */
+.about { background: #dcf5da; }
+.skills { background: #fdf3e2; }
+.projects { background: #e1e7ff; }
+.education { background: #ffe1e1; }
+.certifications { background: #e1fffe; }
+.contact { background: #fbe1ff; }
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card ul {
+    margin-left: 20px;
+}
+
+/* Footer */
+footer {
+    background: #70daed;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
